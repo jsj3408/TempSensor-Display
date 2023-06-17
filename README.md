@@ -1,6 +1,6 @@
 # BMP280 Temperature Sensor Integrated to SSD1306 OLED screen using FRDM-KL25
 
-##Overview
+## Overview
 This is a simple baremetal project where an MCU (FRDM-KL25 dev board) is used to communicate to a temperature sensor (BMP280) and then displays this data to an OLED display. Communication is done via I2C and power supply given from a PC.
 This was purely a hobbyist project. I had undertaken this for the below reasons:
 - simply to learn I2C communication between peripherals.
@@ -14,13 +14,13 @@ Programming Language : C
 
 Also credits to (Eran Duchan)[http://www.eran.io/the-dot-factory-an-lcd-font-and-image-generator/] for his awesome code generator to output the bitmaps of Calibri 7pt that I use on my display.
 
-##Getting Started
+## Getting Started
 
-###Schematic
+### Schematic
 Hope to update this soon. :) 
 
-###Program Structure
+### Program Structure
 Hope to update this soon. :) 
 
-###Documentation Links
+### Documentation Links
 Hope to update this soon. :) 
