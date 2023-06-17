@@ -12,7 +12,7 @@ That being said, the API's that I had made over NXP's communication might be of 
 Development IDE : MCUXpresso
 Programming Language : C
 
-Also credits to (Eran Duchan)[http://www.eran.io/the-dot-factory-an-lcd-font-and-image-generator/] for his awesome code generator to output the bitmaps of Calibri 7pt that I use on my display.
+Also credits to [Eran Duchan](http://www.eran.io/the-dot-factory-an-lcd-font-and-image-generator/) for his awesome code generator to output the bitmaps of Calibri 7pt that I use on my display.
 
 ## Getting Started
 
