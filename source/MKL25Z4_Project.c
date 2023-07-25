@@ -77,9 +77,7 @@ int main(void)
     state_t relay_action = off;
     int32_t comp_temp;
     uint8_t debug = 0;
-    uint8_t loraAddr[] = {0x01, 0x0D, 0x10, 0x18};
-    //each read operation will require two bytes of output
-    uint8_t loraData[10] = {0};
+
 	//SIM_SCGC5 = SIM_SCGC5_PORTA_MASK | SIM_SCGC5_PORTB_MASK | SIM_SCGC5_PORTC_MASK | SIM_SCGC5_PORTD_MASK | SIM_SCGC5_PORTE_MASK;
     /* Init board hardware. */
 	KL_InitPins(); //Initializing pins
@@ -104,10 +102,6 @@ int main(void)
  * The below macro was used to test SPI on the BMP280.
  * The purpose is served, and hence I am removing it
  * */
-
-#ifdef USE_SPI
-    ret = spi_init();
-#endif
 
 #ifdef USE_I2C
     ret = i2c_init();
