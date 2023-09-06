@@ -59,4 +59,4 @@ Below are the sources that helped me through this project
 
 ### Working Prototype
 1. After flashing you should see the temperature getting updated at an interval of every 1s.                                    
-![actual wiring](/assets/images/FRDM.mp4)
+![working vid](/assets/vids/FRDM.mp4)
