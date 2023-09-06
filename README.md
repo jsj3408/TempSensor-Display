@@ -19,6 +19,10 @@ Also credits to [Eran Duchan](http://www.eran.io/the-dot-factory-an-lcd-font-and
 ### Schematic
 ![Simple wiring schematic of project](/assets/images/schematic.png)
 
+The actual prototype with the dev board would look something like this                                           
+![actual wiring](/assets/images/prototype.png)
+
+
 ### Program Structure
 1. All the files meant for build are in the "source" directory.
 2. Each of the sensors have their own files and access the i2c using the APIs in the i2c_comm.c folder.
@@ -52,3 +56,7 @@ Below are the sources that helped me through this project
 3. Next, to flash either flash directly as shown in the pic below and selecting "Program Flash Action Using PEMicro probes"
 4. Or just click on the Blue beetle that says "Debug", which flashes and enters into Debug mode via openSDA.
 ![pic4](assets/images/build.png)
+
+### Working Prototype
+1. After flashing you should see the temperature getting updated at an interval of every 1s.                                    
+![actual wiring](/assets/images/FRDM.mp4)
