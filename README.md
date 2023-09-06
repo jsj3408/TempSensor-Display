@@ -58,5 +58,6 @@ Below are the sources that helped me through this project
 ![pic4](assets/images/build.png)
 
 ### Working Prototype
-1. After flashing you should see the temperature getting updated at an interval of every 1s.                                    
-![working vid](/assets/vids/FRDM.mp4)
+1. After flashing you should see the temperature getting updated at an interval of every 1s.        
+https://github.com/jsj3408/TempSensor-Display/assets/78897360/3e16e7c9-fd25-4978-bded-dfe8442fa5f0
+                      
